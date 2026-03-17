@@ -7,7 +7,7 @@ from engine.ranker import rank_results
 
 st.set_page_config(
     page_title="DocSearch",
-    page_icon="✨",
+    page_icon="🔎",
     layout="wide"
 )
 
@@ -51,7 +51,7 @@ st.markdown("""
 </style>
 <div style="text-align:center; margin: 2.5rem 0 2rem;">
     <h1 style="font-family:'Syne',sans-serif; font-weight:800; color:var(--header-title-color); font-size:2.8rem; margin-bottom:0.6rem;">
-        ✨ DocSearch
+         DocSearch
     </h1>
     <p style="color:var(--header-sub-color); font-size:1.15rem; max-width:580px; margin:0 auto;">
         Find anything in your documents — beautifully.
