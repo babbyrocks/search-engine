@@ -1,0 +1,2 @@
+Python is a great programming language. Python is easy to learn and fun to use.
+Python is used in web development, data science and artificial intelligence.

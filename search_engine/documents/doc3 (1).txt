@@ -1,0 +1,2 @@
+Data structures like dictionaries, lists and sets are fundamental in programming.
+Algorithms help us solve problems efficiently using data structures.

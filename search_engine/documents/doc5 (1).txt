@@ -1,0 +1,2 @@
+Web development involves building websites using HTML, CSS and JavaScript.
+Python frameworks like Django and Flask are popular for web development.
