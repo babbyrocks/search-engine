@@ -1,0 +1,30 @@
+# ── Cache files ──
+index_cache.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Streamlit ──
+.streamlit/
+
+# ── Python environment ──
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ──
+.vscode/
+
+# ── PDF extracted text cache ──
+*.json
+
+# ── Logs ──
+*.log
