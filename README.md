@@ -1,11 +1,11 @@
 
-# ✨ DocSearch
+#  DocSearch
 ### A Python-based Document Search Engine
 > Data Structures & Algorithms Project — KNUST
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **DocSearch** is a text-based search engine built entirely in Python. It indexes multiple documents (`.txt`, `.md`, `.pdf`) and lets users search through them using keywords, with results ranked by frequency of occurrence.
 
@@ -18,19 +18,19 @@ The UI is built with **Streamlit**, styled with custom HTML/CSS for a clean, mod
 
 ---
 
-## ✅ Features
+##  Features
 
-- 📂 Load and index `.txt`, `.md`, and `.pdf` files
-- ⚡ O(1) average keyword lookup via inverted index
-- 🔍 Multi-word query support with combined frequency scoring
-- 📊 Results ranked by relevance (frequency count)
-- 🖊️ Keyword highlighting in result snippets
-- 🌙 Automatic dark/light mode detection
-- 🎨 Smooth animations — card fade-in, hover effects, search bar glow
+-  Load and index `.txt`, `.md`, and `.pdf` files
+-  O(1) average keyword lookup via inverted index
+-  Multi-word query support with combined frequency scoring
+-  Results ranked by relevance (frequency count)
+-  Keyword highlighting in result snippets
+-  Automatic dark/light mode detection
+-  Smooth animations — card fade-in, hover effects, search bar glow
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 search_engine/
@@ -46,7 +46,7 @@ search_engine/
 
 ---
 
-## 🗂 Data Structures
+##  Data Structures
 
 | Data Structure | How it's used |
 |---|---|
@@ -56,7 +56,7 @@ search_engine/
 
 ---
 
-## ⚙️ Algorithms
+##  Algorithms
 
 | Algorithm | Details |
 |---|---|
@@ -66,7 +66,7 @@ search_engine/
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 **1. Clone the repository**
 ```bash
@@ -92,7 +92,7 @@ The app will open automatically at `http://localhost:8501`
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 ```
 Load documents → Preprocess text → Build inverted index → Search → Rank results
@@ -106,7 +106,7 @@ Load documents → Preprocess text → Build inverted index → Search → Rank 
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 - Python 3.12+
 - `streamlit` — UI framework
@@ -114,12 +114,11 @@ Load documents → Preprocess text → Build inverted index → Search → Rank 
 
 ---
 
-## 👤 Author
+##  Author
 
 **Kwasi Asare-Boateng**
-Kwame Nkrumah University of Science and Technology (KNUST)
-Data Structures and Algorithms
+
 
 ---
 
-> ✨ *Built with Python, DSA, and a lot of debugging.*
+>  *Built with Python, DSA, and a lot of debugging.*
