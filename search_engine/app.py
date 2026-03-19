@@ -129,7 +129,7 @@ def build_results_html(results, query, raw_docs):
     return f"""
     <div class="results-meta">
         <div><strong>{len(results)}</strong> result{'s' if len(results) != 1 else ''} for "{query}"</div>
-        <div>Sorted by relevance</div>
+        <div>Sorted by relevance using frequency count</div>
     </div>""" + cards
 
 
@@ -312,7 +312,7 @@ html_content = f"""
             }} else {{
                 // Fallback: check background brightness
                 const bg = window.getComputedStyle(parent.body).backgroundColor;
-                const rgb = bg.match(/\d+/g);
+                const rgb = bg.match(/\\d+/g);
                 if (rgb) {{
                     const brightness = (parseInt(rgb[0])*299 + parseInt(rgb[1])*587 + parseInt(rgb[2])*114) / 1000;
                     isDark = brightness < 128;
