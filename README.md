@@ -114,11 +114,9 @@ Load documents → Preprocess text → Build inverted index → Search → Rank 
 
 ---
 
-##  Author
-
-**Kwasi Asare-Boateng**
 
 
----
 
->  *Built with Python, DSA, and a lot of debugging.*
+
+
+
