@@ -70,7 +70,7 @@ search_engine/
 
 **1. Clone the repository**
 ```bash
-https://github.com/babbyrocks/search-engine.git
+https://github.com/b4boateng/search-engine.git
 cd search_engine
 ```
 
